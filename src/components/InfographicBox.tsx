@@ -17,9 +17,16 @@ export const InfographicBox: React.FC = () => {
       {/* Subtle overlay for legibility and tone */}
       <div className="absolute inset-0 bg-blue-950/20 backdrop-blur-[1px] pointer-events-none" />
 
-      {/* 1400px container layout (no outer background box) */}
+      {/* 1400px container layout */}
       <div className="relative z-10 max-w-[1400px] w-full mx-auto space-y-6">
         
+        {/* Header Tít chung */}
+        <header className="py-2 text-center">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black tracking-tight text-white font-serif-editorial uppercase leading-tight drop-shadow-md">
+            An sinh xã hội - đích đến của mọi quyết sách
+          </h1>
+        </header>
+
         {/* Row 1: An cư - nhà ở xã hội (Full Width) */}
         {housingPillar && (
           <PillarCard pillar={housingPillar} isTriggered={true} />

@@ -1,0 +1,6 @@
+{
+  "name": "Đồ Họa An Sinh Xã Hội 2026",
+  "description": "Box đồ họa báo chí 1400px tương tác, nhấn mạnh các con số động về An sinh xã hội - Đích đến của mọi quyết sách",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
